@@ -148,7 +148,7 @@ export default function indexCard() {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-lg-12">
+                            <div className="col-lg-12 ">
                                 <table>
                                     <ul>
                                         <h5 className="cardNameh5">{formatMessage({id: "cardName2tit2"})}</h5>
