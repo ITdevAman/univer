@@ -7,7 +7,7 @@ export const footerMessages ={
         "contact":"Contact",
         "email":"E-mail",
         "num":"Num",
-        "kay":"© ОАО MUMN Все права защищены "
+        "kay":"©  2020-2021 МУМН (IUSM) Всё права защищены"
     },
     [LOCALES.KYRGYZ]:{
         "addres":'(Кыргыз Республикасы, Бишкек шаары, М. Горький көчөсү, үй 1/7)',
@@ -15,7 +15,7 @@ export const footerMessages ={
         "email":"E-mail",
         "num":"Num",
         "addresFooter":'Биздин адрес',
-        "kay":"© АК МУМН Бардык укуктар корголгон "
+        "kay":"©  2020-2021 ЭМИУ (IUSM) Бардык укуктар сакталган "
     },
     [LOCALES.ENGLISH]:{},
 }

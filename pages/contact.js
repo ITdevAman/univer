@@ -17,6 +17,7 @@ export default function contact() {
                     <div className="contact_block_box">
                         <p>{formatMessage({id : "num" })}:</p>
                       <a href="tel:+919335011912">  <h5>+919335011912 </h5></a>
+                      <a href="tel:+996 999 010 040 ">  <h5>+996 999 010 040 </h5></a>
 
                     </div>
                     <div className="contact_block_box">

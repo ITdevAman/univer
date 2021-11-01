@@ -107,7 +107,7 @@ export default function indexCard() {
                     >
                         <button className="modalClose" onClick={closeModal}>X</button>
                         <div className="modal_row2 row">
-                            <div className="modal_img col-lg-5 col-md-12 col-sm-12 col-12"><Image src={DEI}/></div>
+                            <div className="modal_img col-lg-5 col-md-12 col-sm-12 col-12"><Image className="modal_img_img" src={DEI}/></div>
                             <div className="modal_block col-lg-7 col-md-12 col-sm-12 col-12">
                                 <h3 className="modal_tit">{formatMessage({id: "cardName1tit"})}</h3>
                             </div>
@@ -120,7 +120,7 @@ export default function indexCard() {
                                 <div className="modal_block col-lg-7">
                                     <h3 className="modal_tit">{formatMessage({id: "cardName1tit3"})}</h3>
                                 </div>
-                                <div className="modal_img col-lg-5"><Image src={DEI2}/></div>
+                                <div className="modal_img col-lg-5"><Image className="modal_img_img" src={DEI2}/></div>
                             </div>
                             <div className=" modal_block"><h3
                                 className="modal_tit4">{formatMessage({id: "cardName1tit4"})}</h3>
@@ -142,7 +142,7 @@ export default function indexCard() {
                     >
                         <button className="modalClose" onClick={closeModal2}>X</button>
                         <div className="modal_row row">
-                            <div className="modal_img col-lg-5"><Image src={DELO}/></div>
+                            <div className="modal_img col-lg-5"><Image className="modal_img_img" src={DELO}/></div>
                             <div className="modal_block col-lg-7">
                                 <h3 className="modal_tit">{formatMessage({id: "cardName1tit"})}</h3>
                             </div>
@@ -217,7 +217,7 @@ export default function indexCard() {
 
                         <button className="modalClose" onClick={closeModal3}>X</button>
                             <div className="modal_row row">
-                                <div className="modal_img col-lg-6"><Image src={IT}/></div>
+                                <div className="modal_img col-lg-6"><Image className="modal_img_img" src={IT}/></div>
                                 <div className="modal_block col-lg-6">
                                     <h3 className="modal_tit">{formatMessage({id: "cardName3tit"})}</h3>
                                 </div>
@@ -231,7 +231,7 @@ export default function indexCard() {
                     >
                         <button className="modalClose" onClick={closeModal4}>X</button>
                         <div className="modal_row  row">
-                                <div className="modal_img col-lg-6"><Image src={MEN}/></div>
+                                <div className="modal_img col-lg-6"><Image className="modal_img_img" src={MEN}/></div>
                                 <div className="modal_block col-lg-6">
                                     <h3 className="modal_tit">{formatMessage({id: "cardName4tit"})}</h3>
                             </div>
@@ -253,7 +253,6 @@ export default function indexCard() {
                             <div className="indexCard_news_card">
                                 <div className='num'>
                                     <h3>23</h3>
-                                    <p>{formatMessage({id: "newsDate"})}</p>
                                 </div>
                                 <div className="desc">
                                     <h1>
@@ -264,8 +263,7 @@ export default function indexCard() {
                             </div>
                             <div className="indexCard_news_card">
                                 <div className='num'>
-                                    <h3>23</h3>
-                                    <p>{formatMessage({id: "newsDate"})}</p>
+                                    <h3>24</h3>
                                 </div>
                                 <div className="desc">
                                     <h1>

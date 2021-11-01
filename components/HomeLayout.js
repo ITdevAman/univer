@@ -74,6 +74,7 @@ export default function HomeLayout({children}) {
                                 <span>{formatMessage({id : "header6"})}</span>
                                 <h1>Email : <a href="mailto:iusm.kg@gmail.com"> iusm.kg@gmail.com</a></h1>
                                 <h1>{formatMessage({id:"num"})}: (+919335011912
+                                    )</h1> <h1>{formatMessage({id:"num"})}: (+996 999 010 040
                                     )</h1>
                             </div>
                         </div>
@@ -89,9 +90,9 @@ export default function HomeLayout({children}) {
                         src={require('../pages/images/img_2.png').default.src} alt=""/></a>
                     <a href="https://www.facebook.com/International-University-of-Science-Medicine-355373318327909"><img
                         src={require('../pages/images/img_3.png').default.src} alt=""/></a>
-                    <a href="https://https://web.telegram.org/z/"><img
+                    <a href="https://web.telegram.org/z/#1395775338"><img
                         src={require('../pages/images/img_4.png').default.src} alt=""/></a>
-                    <a href="https://api.whatsapp.com/send?phone=0700123404"><img
+                    <a href="https://api.whatsapp.com/send?phone=+996700123404"><img
                         src={require('../pages/images/img_5.png').default.src} alt=""/></a>
                 </div>
             </div>
