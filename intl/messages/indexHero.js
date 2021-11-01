@@ -7,6 +7,11 @@ export const IndexHeroMessages ={
         "heroTitle2":'Для студентов',
         "heroTitle3":'О нас',
     },
-    [LOCALES.KYRGYZ]:{},
+    [LOCALES.KYRGYZ]:{
+        "heroTitle1":'Түзүм',
+        "heroA1":'Толук окуу',
+        "heroTitle2":'Студенттер үчүн',
+        "heroTitle3":'Биз жөнүндө',
+    },
     [LOCALES.ENGLISH]:{},
 }

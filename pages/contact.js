@@ -25,7 +25,9 @@ export default function contact() {
                     </div>
                     <div className="contact_block_box">
                         <p>{formatMessage({id : "address" })}:</p>
-                        <h5>г. Бишкек, ул. М. Горького, д 1/7</h5>
+                        <h5>{
+                            formatMessage({id : "addres"})
+                        }</h5>
                     </div>
                     <Link href="https://go.2gis.com/o9z40"><button className="contact_block_btn"><a href="#">{formatMessage({id : "btn"})}</a></button></Link>
                 </div>

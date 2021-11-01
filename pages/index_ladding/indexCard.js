@@ -1,4 +1,4 @@
-    import {useIntl} from "react-intl";
+import {useIntl} from "react-intl";
 import Link from "next/link"
 import React from "react";
 import Modal from 'react-modal';
@@ -59,6 +59,8 @@ export default function indexCard() {
                     <div className="col-lg-3 col-md-6 col-sm-6 ">
                         <div className="indexCard " onClick={openModal}>
                             <img src={require('../images/img.png').default.src} alt=""/>
+                            <div className="indexCard_card_line"/>
+                            <div className="indexCard_card_line2"/>
                             <div className="indexCard_card">
                                 <h1>{formatMessage({id: "cardName1"})}</h1>
                                 <a href="#">{formatMessage({id: "linkcard"})}</a>
@@ -67,6 +69,8 @@ export default function indexCard() {
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 " onClick={openModal2}>
                         <div className="indexCard">
+                            <div className="indexCard_card_line"/>
+                            <div className="indexCard_card_line2"/>
                             <img src={require('../images/img.png').default.src} alt=""/>
                             <div className="indexCard_card">
                                 <h1>{formatMessage({id: "cardName2"})}</h1>
@@ -76,6 +80,8 @@ export default function indexCard() {
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6" onClick={openModal3}>
                         <div className="indexCard">
+                            <div className="indexCard_card_line"/>
+                            <div className="indexCard_card_line2"/>
                             <img src={require('../images/img.png').default.src} alt=""/>
                             <div className="indexCard_card">
                                 <h1>{formatMessage({id: "cardName3"})}</h1>
@@ -85,6 +91,8 @@ export default function indexCard() {
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6" onClick={openModal4}>
                         <div className="indexCard">
+                            <div className="indexCard_card_line"/>
+                            <div className="indexCard_card_line2"/>
                             <img src={require('../images/img.png').default.src} alt=""/>
                             <div className="indexCard_card">
                                 <h1>{formatMessage({id: "cardName4"})}</h1>
@@ -98,25 +106,31 @@ export default function indexCard() {
                         contentLabel="Example Modal"
                     >
                         <button className="modalClose" onClick={closeModal}>X</button>
-                        <div className="row">
-                            <div className="col-lg-5">
-                                <div  className="modal_img"> <Image src={DEI}/></div>
-                            </div>
-                            <div className="col-lg-7">
+                        <div className="modal_row2">
+                            <div className="modal_img col-lg-5"><Image src={DEI}/></div>
+                            <div className="modal_block col-lg-7">
                                 <h3 className="modal_tit">{formatMessage({id: "cardName1tit"})}</h3>
                             </div>
-                            <div className="col-lg-12"><h3 className="modal_tit2">{formatMessage({id: "cardName1tit2"})}</h3></div>
-                            <div className="col-lg-7"><h3  className="modal_tit3">{formatMessage({id: "cardName1tit3"})}</h3></div>
-                            <div className="col-lg-4">
-                                <div  className="modal_img"> <Image src={DEI2}/></div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-12 modal_block"><h3 className="modal_tit2">{formatMessage({id: "cardName1tit2"})}</h3></div>
+                            <div className="modal_row2">
+                                <div className="modal_block col-lg-7">
+                                    <h3 className="modal_tit">{formatMessage({id: "cardName1tit3"})}</h3>
+                                </div>
+                                <div className="modal_img col-lg-5"><Image src={DEI2}/></div>
                             </div>
-                            <div className="col-lg-12"><h3 className="modal_tit4">{formatMessage({id: "cardName1tit4"})}</h3>
-                            <div className="dei_tel">
-                                <p>{formatMessage({id : "num" })}:</p>
-                                <a href="tel:+919335011912">  <h5>+919335011912 </h5></a>
+                            <div className=" modal_block"><h3
+                                className="modal_tit4">{formatMessage({id: "cardName1tit4"})}</h3>
+                            </div>
+                            <div className="col-lg-12 ">
+                                <div className="dei_tel">
+                                <p>{formatMessage({id: "num"})}:</p>
+                                <a href="tel:+919335011912"><h5>+919335011912 </h5></a>
 
-                                <a href="tel:+919065448044"> <h5>+919065448044 </h5></a>
-                            </div></div>
+                                <a href="tel:+919065448044"><h5>+919065448044 </h5></a>
+                            </div>
+                            </div>
                         </div>
                     </Modal>
                     <Modal
@@ -125,71 +139,71 @@ export default function indexCard() {
                         contentLabel="Example Modal"
                     >
                         <button className="modalClose" onClick={closeModal2}>X</button>
+                        <div className="modal_row">
+                            <div className="modal_img col-lg-5"><Image src={DELO}/></div>
+                            <div className="modal_block col-lg-7">
+                                <h3 className="modal_tit">{formatMessage({id: "cardName1tit"})}</h3>
+                            </div>
+                        </div>
                         <div className="row">
-                            <div className="col-lg-5">
-                                <div  className="modal_img">    <Image src={DELO}/></div>
-                            </div>
-                            <div className="col-lg-7">
-                                <h3 className="modal_tit">{formatMessage({id: "cardName2tit"})}</h3>
-                            </div>
                             <div className="col-lg-12">
-                               <table>
-                                       <ul>
-                                           <h5 className="cardNameh5">{formatMessage({id: "cardName2tit2"})}</h5>
-                                           <li>{formatMessage({id: "cardName2tit2desc1"})}</li>
-                                           <li>{formatMessage({id: "cardName2tit2desc2"})}</li>
-                                           <li>{formatMessage({id: "cardName2tit2desc3"})}</li>
-                                          <h5 className="cardNameh5"> {formatMessage({id: "cardName2tit3"})}</h5>
-                                           <li>{formatMessage({id: "cardName2tit3desc1"})}</li>
-                                           <li>{formatMessage({id: "cardName2tit3desc2"})}</li>
-                                           <li>{formatMessage({id: "cardName2tit3desc3"})}</li>
-                                           <li>{formatMessage({id: "cardName2tit3desc4"})}</li>
-                                           <li>{formatMessage({id: "cardName2tit3desc5"})}</li>
-                                           <li>{formatMessage({id: "cardName2tit3desc6"})}</li>
-                                           <li>{formatMessage({id: "cardName2tit3desc7"})}</li>
-                                          <h5 className="cardNameh5"> {formatMessage({id: "cardName2tit4"})}</h5>
-                                           <li>{formatMessage({id: "cardName2tit4desc1"})}
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li1"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li2"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li3"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li4"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li5"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li6"})}</p>
-                                           </li>
-                                           <li>{formatMessage({id: "cardName2tit4desc2"})}
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li1"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li2"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li3"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li4"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li5"})}</p>
-                                           </li>
-                                           <li>{formatMessage({id: "cardName2tit4desc3"})}
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc3li1"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc3li2"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc3li3"})}</p>
-                                           </li>
-                                           <li>{formatMessage({id: "cardName2tit4desc4"})}
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc4li1"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc4li2"})}</p>
-                                           </li>
-                                           <li>{formatMessage({id: "cardName2tit4desc5"})}
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc5li1"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc5li2"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc5li3"})}</p>
-                                           </li>
-                                           <li>{formatMessage({id: "cardName2tit4desc6"})}
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc6li1"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc6li2"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc6li3"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc6li4"})}</p>
-                                           </li>
-                                           <li>{formatMessage({id: "cardName2tit4desc7"})}
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc7li1"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc7li2"})}</p>
-                                               <p className="cardNamep">{formatMessage({id: "cardName2tit4desc7li3"})}</p>
-                                           </li>
-                                       </ul>
-                               </table>
+                                <table>
+                                    <ul>
+                                        <h5 className="cardNameh5">{formatMessage({id: "cardName2tit2"})}</h5>
+                                        <li>{formatMessage({id: "cardName2tit2desc1"})}</li>
+                                        <li>{formatMessage({id: "cardName2tit2desc2"})}</li>
+                                        <li>{formatMessage({id: "cardName2tit2desc3"})}</li>
+                                        <h5 className="cardNameh5"> {formatMessage({id: "cardName2tit3"})}</h5>
+                                        <li>{formatMessage({id: "cardName2tit3desc1"})}</li>
+                                        <li>{formatMessage({id: "cardName2tit3desc2"})}</li>
+                                        <li>{formatMessage({id: "cardName2tit3desc3"})}</li>
+                                        <li>{formatMessage({id: "cardName2tit3desc4"})}</li>
+                                        <li>{formatMessage({id: "cardName2tit3desc5"})}</li>
+                                        <li>{formatMessage({id: "cardName2tit3desc6"})}</li>
+                                        <li>{formatMessage({id: "cardName2tit3desc7"})}</li>
+                                        <h5 className="cardNameh5"> {formatMessage({id: "cardName2tit4"})}</h5>
+                                        <li>{formatMessage({id: "cardName2tit4desc1"})}
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li1"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li2"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li3"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li4"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li5"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc1li6"})}</p>
+                                        </li>
+                                        <li>{formatMessage({id: "cardName2tit4desc2"})}
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li1"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li2"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li3"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li4"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc2li5"})}</p>
+                                        </li>
+                                        <li>{formatMessage({id: "cardName2tit4desc3"})}
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc3li1"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc3li2"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc3li3"})}</p>
+                                        </li>
+                                        <li>{formatMessage({id: "cardName2tit4desc4"})}
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc4li1"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc4li2"})}</p>
+                                        </li>
+                                        <li>{formatMessage({id: "cardName2tit4desc5"})}
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc5li1"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc5li2"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc5li3"})}</p>
+                                        </li>
+                                        <li>{formatMessage({id: "cardName2tit4desc6"})}
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc6li1"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc6li2"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc6li3"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc6li4"})}</p>
+                                        </li>
+                                        <li>{formatMessage({id: "cardName2tit4desc7"})}
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc7li1"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc7li2"})}</p>
+                                            <p className="cardNamep">{formatMessage({id: "cardName2tit4desc7li3"})}</p>
+                                        </li>
+                                    </ul>
+                                </table>
                             </div>
                         </div>
                     </Modal>
@@ -200,13 +214,11 @@ export default function indexCard() {
                     >
 
                         <button className="modalClose" onClick={closeModal3}>X</button>
-                        <div className="row">
-                            <div className="col-lg-5">
-                               <div  className="modal_img"><Image src={IT}/></div>
-                            </div>
-                            <div className="col-lg-7">
-                                <h3 className="modal_tit">{formatMessage({id: "cardName3tit"})}</h3>
-                            </div>
+                            <div className="modal_row">
+                                <div className="modal_img col-lg-6"><Image src={IT}/></div>
+                                <div className="modal_block col-lg-6">
+                                    <h3 className="modal_tit">{formatMessage({id: "cardName3tit"})}</h3>
+                                </div>
                         </div>
 
                     </Modal>
@@ -215,14 +227,11 @@ export default function indexCard() {
                         onRequestClose={closeModal4}
                         contentLabel="Example Modal"
                     >
-
                         <button className="modalClose" onClick={closeModal4}>X</button>
-                        <div className="row">
-                            <div className="col-lg-5">
-                                <div  className="modal_img"> <Image src={MEN}/></div>
-                            </div>
-                            <div className="col-lg-7">
-                                <h3 className="modal_tit">{formatMessage({id: "cardName4tit"})}</h3>
+                        <div className="modal_row">
+                                <div className="modal_img col-lg-6"><Image src={MEN}/></div>
+                                <div className="modal_block col-lg-6">
+                                    <h3 className="modal_tit">{formatMessage({id: "cardName4tit"})}</h3>
                             </div>
                         </div>
                     </Modal>
@@ -258,16 +267,16 @@ export default function indexCard() {
                                 </div>
                                 <div className="desc">
                                     <h1>
-                                        {formatMessage({id: "newsName1"})}
+                                        {formatMessage({id: "newsName2"})}
                                     </h1>
-                                    <p>{formatMessage({id: "newsDesc1"})}</p>
+                                    <p>{formatMessage({id: "newsDesc2"})}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 ">
                         <div className="indexCard_person">
-                            <img src="/" alt=""/>
+                            <img src={require("../images/img_14.png").default.src} alt=""/>
                             <div className="indexCard_person_block">
                                 <h1>{formatMessage({id: "onlain"})}</h1>
                                 <a href="https://api.whatsapp.com/send?phone=0999010040">{formatMessage({id: "onlainBtn"})}</a>

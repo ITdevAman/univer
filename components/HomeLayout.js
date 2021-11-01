@@ -71,15 +71,15 @@ export default function HomeLayout({children}) {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 col-6">
                             <div className="footer_adress">
-                                <span>{formatMessage({id : "contact"})}</span>
-                                <h1>{formatMessage({id : "email"})} :<a href="mailto:iusm.kg@gmail.com">iusm.kg@gmail.com</a></h1>
+                                <span>{formatMessage({id : "header6"})}</span>
+                                <h1>Email : <a href="mailto:iusm.kg@gmail.com"> iusm.kg@gmail.com</a></h1>
                                 <h1>{formatMessage({id:"num"})}: (+919335011912
                                     )</h1>
                             </div>
                         </div>
                         <div className="col-lg-12 col-md-12">
                             <div className="footer_line">
-                                <h1>© ОАО "MUMN university". Все права защищены. Лицензия НБКР №030</h1>
+                                <h1>{formatMessage({id : "kay"})}</h1>
                             </div>
                         </div>
                     </div>
