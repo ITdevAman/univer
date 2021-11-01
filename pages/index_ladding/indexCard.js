@@ -106,15 +106,17 @@ export default function indexCard() {
                         contentLabel="Example Modal"
                     >
                         <button className="modalClose" onClick={closeModal}>X</button>
-                        <div className="modal_row2">
-                            <div className="modal_img col-lg-5"><Image src={DEI}/></div>
-                            <div className="modal_block col-lg-7">
+                        <div className="modal_row2 row">
+                            <div className="modal_img col-lg-5 col-md-12 col-sm-12 col-12"><Image src={DEI}/></div>
+                            <div className="modal_block col-lg-7 col-md-12 col-sm-12 col-12">
                                 <h3 className="modal_tit">{formatMessage({id: "cardName1tit"})}</h3>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-lg-12 modal_block"><h3 className="modal_tit2">{formatMessage({id: "cardName1tit2"})}</h3></div>
-                            <div className="modal_row2">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-12 modal_block">
+                                <h3 className="modal_tit2">{formatMessage({id: "cardName1tit2"})}</h3>
+                            </div>
+                            <div className="modal_row2 row">
                                 <div className="modal_block col-lg-7">
                                     <h3 className="modal_tit">{formatMessage({id: "cardName1tit3"})}</h3>
                                 </div>
@@ -139,7 +141,7 @@ export default function indexCard() {
                         contentLabel="Example Modal"
                     >
                         <button className="modalClose" onClick={closeModal2}>X</button>
-                        <div className="modal_row">
+                        <div className="modal_row row">
                             <div className="modal_img col-lg-5"><Image src={DELO}/></div>
                             <div className="modal_block col-lg-7">
                                 <h3 className="modal_tit">{formatMessage({id: "cardName1tit"})}</h3>
@@ -214,7 +216,7 @@ export default function indexCard() {
                     >
 
                         <button className="modalClose" onClick={closeModal3}>X</button>
-                            <div className="modal_row">
+                            <div className="modal_row row">
                                 <div className="modal_img col-lg-6"><Image src={IT}/></div>
                                 <div className="modal_block col-lg-6">
                                     <h3 className="modal_tit">{formatMessage({id: "cardName3tit"})}</h3>
@@ -228,7 +230,7 @@ export default function indexCard() {
                         contentLabel="Example Modal"
                     >
                         <button className="modalClose" onClick={closeModal4}>X</button>
-                        <div className="modal_row">
+                        <div className="modal_row  row">
                                 <div className="modal_img col-lg-6"><Image src={MEN}/></div>
                                 <div className="modal_block col-lg-6">
                                     <h3 className="modal_tit">{formatMessage({id: "cardName4tit"})}</h3>

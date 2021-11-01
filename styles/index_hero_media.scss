@@ -31,25 +31,18 @@
   }
 
   .modal_tit {
-    font-weight: normal;
-    margin: 0;
     font-size: 14px;
   }
 
   .modal_tit2 {
-    font-weight: normal;
     font-size: 14px;
-    margin-top: -55px;
   }
 
   .modal_tit3 {
-    font-weight: normal;
-    margin: 0;
     font-size: 14px;
   }
 
   .modal_tit4 {
-    font-weight: normal;
     font-size: 14px;
   }
 
@@ -62,9 +55,7 @@
     font-size: 15px;
   }
 
-  table {
-    margin-top: -100px;
-  }
+
 
   .cardNameh5 {
     font-size: 16px;
@@ -119,22 +110,11 @@
     height: 300px;
     width: 80%;
   }
-  .modal_tit {
-    margin-top: -50px;
-  }
-  .modal_tit2, .modal_tit4 {
-    margin-top: 1px;
-  }
-  table {
-    margin: 10px 0;
-  }
   .cardNameh5 {
     font-size: 15px;
-    font-weight: 300;
   }
   li {
     font-size: 14px;
-    font-weight: 250
   }
   .indexCard_person_block {
     margin: -290px 200px;
@@ -179,16 +159,8 @@
   .indexCard_news{
     height: 55vh;
   }
-  .modal_img {
-    height: 255px;
-    & img {
-      height: 255px;
 
-    }
-  }
-  .modal_img img {
-    height: 270px;
-  }
+
   .ReactModal__Overlay {
     z-index: 90 !important;
     background: rgba(0, 0, 0, 0.74) !important;
