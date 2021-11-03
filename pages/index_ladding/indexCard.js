@@ -3,11 +3,11 @@ import Link from "next/link"
 import React from "react";
 import Modal from 'react-modal';
 import Image from "next/image";
-import IT from "../images/img_18.png";
-import MEN from "../images/img_19.png";
-import DEI from "../images/img_20.png";
+import IT from "../images/it.jpg";
+import MEN from "../images/men.jpg";
+import DEI from "../images/dei.jpg";
 import DEI2 from "../images/img_21.png";
-import DELO from "../images/img_22.png";
+import DELO from "../images/img_15.png";
 
 export default function indexCard() {
     const {formatMessage} = useIntl();
