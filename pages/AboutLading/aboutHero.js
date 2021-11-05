@@ -46,7 +46,7 @@ export default function  AboutHero() {
                     </div>
                 </div>
                 <div className="about_container_block">
-                    <span className="about_container_block_title">{formatMessage({id: "aboutGrup2"})}:</span>
+                    <span className="about_container_block_title">{formatMessage({id: "aboutGrup4"})}:</span>
                     <div className="about_container_block_box">
                         <h1><span>1.</span>{formatMessage({id: "aboutGrup4title1"})}:</h1>
                         <p>{formatMessage({id: "aboutGrup4desc1"})}</p>
