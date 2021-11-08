@@ -18,10 +18,11 @@ export const headerMessages ={
         "header6": "Байланыш",
     },
     [LOCALES.ENGLISH]:{
-        "header1": "",
-        "header2": "",
-        "header3": " ",
-        "header4": "",
-        "header5": "",
+        "header1": "Home",
+        "header2": "Structure",
+        "header3": "About Us ",
+        "header4": "For Students",
+        "header5": "Regulations",
+        "header6": "Contact",
     }
 }

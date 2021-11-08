@@ -46,7 +46,8 @@ export const normativeActsMesseages ={
             '\n' +
             '                                общего образования',
     },
-    [LOCALES.KYRGYZ]:{        "act1": "ГОСУДАРСТВЕННЫЙ ОБРАЗОВАТЕЛЬНЫЙ СТАНДАРТ школьного общего образования Кыргызской Республики",
+    [LOCALES.KYRGYZ]:{
+        "act1": "ГОСУДАРСТВЕННЫЙ ОБРАЗОВАТЕЛЬНЫЙ СТАНДАРТ школьного общего образования Кыргызской Республики",
         "act2": "ЗАКОН КЫРГЫЗСКОЙ РЕСПУБЛИКИ",
         "act3":'ПОЛОЖЕНИЕ\n' +
             '                                об образовательной организации высшего профессионального\n' +
@@ -88,9 +89,20 @@ export const normativeActsMesseages ={
             '                                аккредитации образовательных организаций,\n' +
             '                                реализующих программы основного и/или среднего\n' +
             '\n' +
-            '                                общего образования',  },
+            '                                общего образования',
+    },
     [LOCALES.ENGLISH]:{
-        "act1":"",
-        "act2": "dvdfuvwepnvvadfsgvradg kfbvowdnvbibvowvoudbvowvbv",
+        "act1": "STATE EDUCATIONAL STANDARD of secondary school education of the Kyrgyz Republic",
+        "act2": "LAW OF THE KYRGYZ REPUBLIC",
+        "act3":'REGULATIONS on the educational organization of higher professional education of the Kyrgyz Republic',
+        "act4":'REGULATIONS on state educational standards of vocational education in the Kyrgyz Republic',
+        "act5":'REGULATIONS on state educational standards of vocational education in the Kyrgyz Republic',
+        "act6":'REGULATIONS on the final state certification of graduates of an educational organization of secondary vocational education of the Kyrgyz Republic',
+        "act7":'REGULATIONS on the educational and methodological council of secondary vocational education of the Kyrgyz Republic',
+        "act8":'REGULATIONS on the procedure for transfer, restoration, expulsion and granting of academic leave to students of an educational organization of secondary vocational education of the Kyrgyz Republic',
+        "act9":'REGULATIONS on industrial (professional) practice of students of educational institutions of secondary vocational education of the Kyrgyz Republic',
+        "act10":'About the National Accreditation Council under the authorized state body in the field of education',
+        "act11":'ORDER of accreditation of educational organizations and programs',
+        "act12":'PROCEDURE for accreditation of educational organizations implementing programs of basic and / or secondary general education',
     }
 }

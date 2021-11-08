@@ -13,5 +13,10 @@ export const IndexHeroMessages ={
         "heroTitle2":'Студенттер үчүн',
         "heroTitle3":'Биз жөнүндө',
     },
-    [LOCALES.ENGLISH]:{},
+    [LOCALES.ENGLISH]:{
+        "heroTitle1":'Structure',
+        "heroA1":'More details',
+        "heroTitle2":'For students',
+        "heroTitle3":'About Us',
+    },
 }

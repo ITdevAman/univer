@@ -21,5 +21,14 @@ export const main ={
         "PersonName4":"Асанбай уулу Мирбек",
         "PersonDesc4":"Башкаруу иштери боюнча проректор",
     },
-    [LOCALES.ENGLISH]:{},
+    [LOCALES.ENGLISH]:{
+        "PersonName1":"Satarov Nurdin Abdybekovich",
+        "PersonDesc1":"Vice-rector for medical work",
+        "PersonName2":"Sadabaev Mairambek Mukashovich",
+        "PersonDesc2":"Rector",
+        "PersonName3":"Davletova Cholpon Imammuseinovna",
+        "PersonDesc3":"Vice-rector for educational work, candidate of biological sciences",
+        "PersonName4":"Asanbay uulu Mirbek",
+        "PersonDesc4":" Vice-rector for management",
+    },
 }

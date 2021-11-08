@@ -11,7 +11,6 @@ import { bubble as Menu } from 'react-burger-menu'
 export default function HomeLayout({children}) {
     const dispatch = useDispatch();
     const {formatMessage, locale} = useIntl();
-    // noinspection JSUnresolvedFunction
     return (
         <>
             <div className='header1'>

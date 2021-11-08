@@ -17,5 +17,12 @@ export const footerMessages ={
         "addresFooter":'Биздин адрес',
         "kay":"©  2020-2021 ЭМИУ (IUSM) Бардык укуктар сакталган "
     },
-    [LOCALES.ENGLISH]:{},
+    [LOCALES.ENGLISH]:{
+        "addresFooter":'Our address',
+        "addres":'(720033, Kyrgyz Republic, Bishkek, M. Gorky str., 1/7)',
+        "contact":"Contact",
+        "email":"E-mail",
+        "num":"Num",
+        "kay":"©  2020-2021 IUSM All rights reserved"
+    },
 }
