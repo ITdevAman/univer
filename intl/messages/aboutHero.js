@@ -397,9 +397,9 @@ export const AboutHero = {
     [LOCALES.ENGLISH]: {
         "aboutHero": "Mission of the International University of Medicine and Science: \n",
         'aboutGrup1': "Mission and goals of the International University of Medicine and Science:\n",
-        'aboutGrup2': "VISION:\n",
-        'aboutGrup3': "GOALS:\n",
-        'aboutGrup4': "VISION:\n",
+        'aboutGrup2': "VISION\n",
+        'aboutGrup3': "GOALS\n",
+        'aboutGrup4': "IUMS VALUES\n",
         'aboutGrup1title1': "1.Our motto: Veritate, scientia, labore - \"Truth, wisdom and labor\"\n",
         'aboutGrup1title2': "2.Policy of quality assurance of education of the IUMS \n",
         'aboutGrup1title3': "3 IUMS’ MISSION\n",
