@@ -5,14 +5,15 @@ export const Contact ={
         "contact":"Кoнтакты",
         "num":"Телефон",
         "address":"Адрес",
-        "btn":"Баруу 2GIS",
+        "btn":"Перейти 2GIS",
 
     },
     [LOCALES.KYRGYZ]:{
         "contact":"Байланыш",
         "num":"Телефон",
         "address":"Адрес",
-        "btn":"Перейти 2GIS",
+        "btn":"Баруу 2GIS",
+
     },
     [LOCALES.ENGLISH]:{
         "contact":"Contact",
